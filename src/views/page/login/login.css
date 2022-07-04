@@ -1,0 +1,187 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 네비게이션 */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.navbar-item {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0 4px;
+}
+
+.cart {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.has-text-link {
+  color: white;
+}
+
+.login-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.login-form-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  height: 540px;
+  width: 400px;
+  padding: 10px 28px;
+}
+
+.login-form-box .title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#emailInput, #passwordInput {
+  width: 320px;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 0 4px;
+}
+
+#emailInput:focus,
+#passwordInput:focus {
+  background-color: #ecf3fd;
+}
+
+#submitButton {
+  background-color: black;
+  border-radius: 5px;
+  width: 328px;
+  height: 40px;
+  color: white;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#submitButton:hover {
+  background-color: rgb(41, 40, 40);
+  border-color: rgb(41, 40, 40);
+}
+
+/* 자동 로그인 & 아이디 비번 찾기 */
+.autologin-find-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px
+}
+
+.checkbox {
+  font-size: 50%;   
+}
+
+.find-user {
+  display: flex;
+  align-items: center;
+}
+
+.autologin-find-container {
+  width: 100%;
+}
+
+.autologin {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.autologin label {
+  margin-right: 2px;
+}
+
+.find-user {
+  margin-right: 40px;
+}
+
+/* 계정 연동 로그인 */
+.connect-account-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.account-google {
+  border: 3px solid #79a7f7;
+  background-color: #79a7f7;
+  width: 70%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-google span {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.account-kakao {
+  border: 3px solid #fee500;
+  background-color: #fee500;
+  width: 70%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-kakao span {
+  color: #381e1f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.connect-account-box img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* 회원가입 */
+.register {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.register-user {
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}

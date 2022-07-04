@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <!-- 아이콘 -->
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="../../assets/favicon.png"
+    />
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 폰트 어썸: 아이콘 -->
+    <script src="https://kit.fontawesome.com/31e5b6c216.js" crossorigin="anonymous"></script>
+    
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="../../styles/normalize.css" />
+    <link rel="stylesheet" href="../../styles/styles.css" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="nav-container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <span class="has-text-link">STOP MUSINSA</span>
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <a href="/cart" aria-current="page" class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 로그인 폼(Form) -->
+    <div class="login-form-container">
+      <form class="box login-form-box" id="loginForm">
+        <p class="title is-5 has-text-info">로그인
+          <div class="v-line" style="border-top: solid black; width: 100px; margin: 0 auto 1rem;"></div>
+        </p>
+        
+        <div class="field-email">
+            <input
+              class="input"
+              id="emailInput"
+              type="email"
+              placeholder="아이디"
+              autocomplete="on"
+            />
+        </div>
+
+        <div class="field mb-5">
+            <input
+              class="input"
+              id="passwordInput"
+              type="password"
+              placeholder="비밀번호"
+              autocomplete="on"
+            />
+        </div>
+
+        <button class="button is-info is-fullwidth" id="submitButton">
+          로그인
+        </button>
+
+        <!-- 자동로그인 및 아이디 비번 찾기 -->
+        <div class="autologin-find-container">
+          <div class="autologin">
+            <label class="chechbox">
+              자동로그인
+            </label>
+            <input type="checkbox" name="" id="checkbox">
+          </div>
+          <div class="find-user">
+            <a href="" id="find-id">아이디 찾기</a>
+
+            <!-- 구분선 -->
+            <div class="v-line" style="border-left: 2px solid rgb(79, 79, 79); height: 1rem; margin: 0 8px;"></div>
+
+            <a href="" id="find-pw">비밀번호 찾기</a>
+          </div>
+        </div>
+
+        <!-- 계정 로그인 -->
+        <div class="connect-account-box">
+            <a href="#" class="account-google" id="account-google">
+              <img src="./img/png-transparent-google-company-text-logo.png" alt="">
+              <span>구글 로그인</span>
+            </a>
+            
+            <a href="#" class="account-kakao" id="account-kakako">
+              <img src="./img/ico-kakao.png" alt="">
+              <span>카카오 로그인</span>
+            </a>
+        </div>
+
+        <!-- 회원가입 -->
+        <div class="register">
+          <a href="/register">
+            <span class="register-event">가입만 해도 5억 할인!</span>
+            <span class="register-user">회원가입</span>
+          </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+p {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* 카트 상단 타이틀 */
+.cart-container {
+    margin: 40px;
+    width: 95%;
+    border: 2px solid rgba(34, 34, 37, 0.11);
+}
+
+.cart-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(34, 34, 37, 0.11);
+    height: 70px;
+}
+
+.cart-title {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.cart-step {
+    margin-right: 20px;
+}
+
+.current {
+    font-weight: 800;
+}
+
+/* 카트 상품 갯수 */
+.cart-num-box {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#cart-num {
+    color: rgba(46, 130, 199, 0.529);
+}
+
+/* 카트 상품 목록 */
+.product-index {
+    margin: 30px 20px 10px;
+    border: 2px solid rgba(34, 34, 37, 0.11);
+}
+
+.product-title {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: repeat(auto-fill, minmax(60px, auto));
+    align-items: center;
+    justify-items: center;
+    font-weight: 700;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: repeat(auto-fill, minmax(100px, auto));
+    align-items: center;
+    justify-items: center;
+    border-top: 2px solid rgba(34, 34, 37, 0.11);
+}
+
+/* .product:last-child {
+  border: unset;
+} */
+
+.product-info {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.product-option {
+    margin-top: 6px;
+    color: rgba(83, 83, 85, 0.486);
+}
+
+.product-quantity-box {
+    display: flex;
+    align-items: center;
+}
+
+.product-quantity-box .product-quantity {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-top: 2px solid rgba(34, 34, 37, 0.11);
+    border-bottom: 2px solid rgba(34, 34, 37, 0.11);
+    text-align: center;
+    background-color: white;
+    font-weight: 700;
+    width: 10px;
+    cursor: auto;
+    font-size: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product-quantity-box input {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: rgba(34, 34, 37, 0.11);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.delete {
+    all: unset;
+    border: 2px solid rgba(34, 34, 37, 0.11);
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.checkbox,
+.product-check {
+    cursor: pointer;
+}
+
+/* 제품 삭제 버튼 */
+.btn-box {
+    margin-left: 20px;
+}
+
+.btn-box input {
+    all: unset;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 8px;
+    border: 2px solid rgba(34, 34, 37, 0.11);
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-box input:hover {
+    background-color: rgba(34, 34, 37, 0.11);
+    border: 2px solid rgba(34, 34, 37, 0);
+}
+
+/* 주문하기 */
+.order-box {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#orderBtn {
+    all: unset;
+    background-color: black;
+    color: white;
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#orderBtn:hover {
+    background-color: rgb(57, 56, 56);
+}

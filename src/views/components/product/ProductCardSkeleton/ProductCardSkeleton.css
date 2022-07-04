@@ -1,0 +1,55 @@
+/* ProductCardSkeleton */
+.ProductCardSkeleton {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border-radius: 8px;
+    height: 320px;
+}
+
+.ProductCardSkeleton__header {
+    display: none;
+}
+
+.ProductCardSkeleton__imageContainer {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 16px;
+    flex: 8;
+    animation: backgroundBlink 1s infinite;
+}
+
+@keyframes backgroundBlink {
+    0% {
+        background-color: rgb(220, 220, 220);
+    }
+    50% {
+        background-color: rgb(240, 240, 240);
+    }
+    100% {
+        background-color: rgb(220, 220, 220);
+    }
+}
+.ProductCardSkeleton__body {
+    flex: 2;
+    padding: 8px;
+}
+
+.ProductCardSkeleton__row {
+    width: 60%;
+    height: 8px;
+    margin-top: 8px;
+    border-radius: 16px;
+    background-color: rgb(234, 234, 234);
+    animation: backgroundBlink 1s infinite;
+}
+.ProductCardSkeleton__row--short {
+    width: 50%;
+}
+.ProductCardSkeleton__row--medium {
+    width: 80%;
+}
+.ProductCardSkeleton__row--long {
+    width: 100%;
+}

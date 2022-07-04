@@ -1,0 +1,152 @@
+/* Footer */
+.Footer__contact {
+    border-top: 1px solid rgb(234, 234, 234);
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.FooterContact__container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.FooterContactItem {
+    font-size: 12px;
+    margin-right: 48px;
+}
+
+.FooterContactItem:not(:first-child) {
+    border-left: 1px solid rgb(234, 234, 234);
+    padding-left: 24px;
+}
+
+.FooterContactItem__title {
+    font-size: 12px;
+}
+
+.FooterContactItem__body {
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.FooterContactItem p {
+    line-height: 20px;
+}
+
+.FooterContactItem__link:not(:last-child):after {
+    content: '|';
+    margin: 0 4px;
+    color: rgb(215, 215, 215);
+}
+
+/* FooterGuarantee */
+.FooterGuarantee__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.FooterGuarantee__text {
+    font-size: 12px;
+}
+
+.FooterGuarantee__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.FooterGuarantee__caption {
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.FooterGuarantee__body {
+    color: #b2b2b2;
+    line-height: 16px;
+}
+
+.FooterGuarantee__images {
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 24px;
+}
+
+.FooterGuarantee__image {
+    width: 72px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.Footer__bottom {
+    background-color: black;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b2b2b2;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.FooterBottom__URL {
+    color: white;
+}
+
+.Footer__mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Footer {
+        background-color: black;
+        color: white;
+        padding-top: 32px;
+    }
+
+    .Footer__contact {
+        border: none;
+    }
+
+    .FooterContact__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .FooterContactItem:not(:first-child) {
+        border: none;
+        padding: 0;
+    }
+
+    .FooterContactItem:not(:last-child) {
+        display: none;
+    }
+
+    .FooterContactItem {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .FooterContactItem__links a {
+        color: white;
+    }
+
+    .FooterContactItem > a {
+        color: white;
+    }
+
+    .Footer__guarantee,
+    .Footer__bottom {
+        display: none;
+    }
+
+    .Footer__mobile {
+        display: block;
+        color: #6d6d6d;
+        font-size: 12px;
+        margin-top: 16px;
+        padding-bottom: 32px;
+    }
+}

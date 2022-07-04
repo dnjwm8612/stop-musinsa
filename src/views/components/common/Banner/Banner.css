@@ -1,0 +1,13 @@
+.Banner {
+    display: none;
+}
+@media (max-width: 768px) {
+    .Banner {
+        display: block;
+    }
+
+    .Banner__image {
+        display: block;
+        width: 100%;
+    }
+}

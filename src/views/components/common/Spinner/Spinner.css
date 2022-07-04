@@ -1,0 +1,12 @@
+.Spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 120px 0;
+}
+
+.Spinner__image {
+    width: 100px;
+    height: 100px;
+}

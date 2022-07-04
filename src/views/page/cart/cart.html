@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cart</title>
+        <!-- 아이콘 -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="../../assets/favicon.png"
+        />
+        <!-- 구글 폰트 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- 폰트 어썸: 아이콘 -->
+        <script
+            defer
+            src="https://kit.fontawesome.com/7630448495.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- 커스텀 css, js -->
+        <link rel="stylesheet" href="../../styles/normalize.css" />
+        <link rel="stylesheet" href="../../styles/styles.css" />
+        <link rel="stylesheet" href="cart.css" />
+        <script src="cart.js" type="module" defer></script>
+        <script type="module" src="/src/views/components/index.js"></script>
+    </head>
+    <body>
+        <common-header></common-header>
+        <div class="cart-container Site__container">
+            <!-- 장바구니 타이틀 -->
+            <div class="cart-title-box">
+                <div class="cart-title">
+                    <h3>Order / Payment</h3>
+                </div>
+                <div class="cart-step">
+                    <span class="current">장바구니</span>
+                    <span> > 결제</span>
+                </div>
+            </div>
+            <!-- 장바구니 상품 갯수 -->
+            <div class="cart-num-box">
+                <span>택배배송 </span>
+                <span class="cart-num" id="cart-num">0</span>
+            </div>
+            <!-- 상품 목록 -->
+            <div class="product-index">
+                <div class="product-title">
+                    <p id="product-num-all">전체 0개</p>
+                    <input
+                        class="checkbox"
+                        type="checkbox"
+                        name=""
+                        id="product-check-all"
+                        checked
+                    />
+                    <p>상품명(옵션)</p>
+                    <p>판매가</p>
+                    <p>수량</p>
+                    <p>주문금액</p>
+                    <p>주문관리</p>
+                </div>
+                <div class="products" id="product-box"></div>
+            </div>
+            <!-- 제품 삭제 버튼 -->
+            <div class="btn-box">
+                <input type="button" id="deleteAllBtn" value="전체삭제" />
+                <input type="button" id="deleteBtn" value="선택삭제" />
+            </div>
+            <!-- 주문하기 -->
+            <div class="order-box" href="../pay/pay.html">
+                <input type="button" id="orderBtn" value="" />
+            </div>
+        </div>
+        <script src="cart.js"></script>
+        <common-footer></common-footer>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Register</title>
+        <!-- 아이콘 -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="../../assets/favicon.png"
+        />
+        <!-- 구글 폰트 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet"
+    />
+    <script defer src="https://kit.fontawesome.com/7630448495.js" crossorigin="anonymous"></script>
+        <!-- 구글 OAuth -->
+        <script
+            src="https://accounts.google.com/gsi/client"
+            async
+            defer
+        ></script>
+        <!-- 카카오 OAuth -->
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <!-- 커스텀 css, js -->
+        <link rel="stylesheet" href="register.css" />
+        <link rel="stylesheet" href="../../styles/normalize.css" />
+        <link rel="stylesheet" href="../../styles/styles.css" />
+        <script src="register.js" type="module" defer></script>
+    </head>
+    <body>
+        <!-- 헤더 -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="nav-container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <span class="has-text-link">STOP MUSINSA</span>
+                    </a>
+
+                    <a
+                        role="button"
+                        class="navbar-burger"
+                        aria-label="menu"
+                        aria-expanded="false"
+                        data-target="navbarBasicExample"
+                    >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <a href="/login" class="login">로그인</a>
+                    <a href="/cart" aria-current="page" class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 회원가입 폼(Form) -->
+        <div class="register-user-form-container">
+            <form class="register-user-form-box" id="registerUserForm">
+                <div class="welcome-box">
+                    <p class="welcome">STOP MUSINSA</p>
+                    <div
+                        style="
+                            border-top: solid black;
+                            width: 240px;
+                            margin-left: 8px;
+                        "
+                    ></div>
+                </div>
+                <div class="field">
+                    <label class="label" for="fullNameInput"
+                        >이름
+                        <sup>*</sup>
+                    </label>
+                    <div class="control">
+                        <input
+                            class="input"
+                            id="fullNameInput"
+                            type="text"
+                            placeholder="유재석"
+                            autocomplete="on"
+                        />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="emailInput"
+                        >이메일
+                        <sup>*</sup>
+                    </label>
+                    <div class="control">
+                        <input
+                            class="input"
+                            id="emailInput"
+                            type="email"
+                            placeholder="abc@example.com"
+                            autocomplete="on"
+                        />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="passwordInput"
+                        >비밀번호
+                        <sup>*</sup>
+                    </label>
+                    <div class="control">
+                        <input
+                            class="input"
+                            id="passwordInput"
+                            type="password"
+                            placeholder="********"
+                            autocomplete="off"
+                        />
+                    </div>
+                </div>
+
+                <div class="field mb-5">
+                    <label class="label" for="passwordConfirmInput"
+                        >비밀번호 확인
+                        <sup>*</sup>
+                    </label>
+                    <div class="control">
+                        <input
+                            class="input"
+                            id="passwordConfirmInput"
+                            type="password"
+                            placeholder="********"
+                            autocomplete="off"
+                        />
+                    </div>
+                </div>
+
+                <button
+                    class="button is-primary is-fullwidth"
+                    id="submitButton"
+                >
+                    회원가입하기
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
