@@ -31,7 +31,7 @@
 | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------|
 | ![1](https://user-images.githubusercontent.com/59943196/184525828-11c93a47-ae8f-4afb-a3cd-f0bf3923bd14.png) | ![2](https://user-images.githubusercontent.com/59943196/184525864-3002fdf6-d369-4562-bd55-08b19219b04c.png) |
 |    메인 페이지                                |      회원가입 페이지                            |
-|  | ![4](https://user-images.githubusercontent.com/59943196/184525962-771676e6-ebdb-4fe2-a70b-5102266a2261.png)                                        | ![3](https://user-images.githubusercontent.com/59943196/184525885-6d58a63f-98c0-4714-958c-a5a90564a144.png)
+| ![4](https://user-images.githubusercontent.com/59943196/184525962-771676e6-ebdb-4fe2-a70b-5102266a2261.png)                                        | ![3](https://user-images.githubusercontent.com/59943196/184525885-6d58a63f-98c0-4714-958c-a5a90564a144.png) |
 |    로그인 페이지                              |     주문 페이지                         |
 
 <br />
