@@ -1,16 +1,10 @@
-# 쇼핑몰 웹 서비스 - 기본 코드 Heroku 배포
-
-<div>
-
-<img alt="쇼핑-데모 로고" src="https://i.ibb.co/xSZHxmy/image.png">
-
-</div>
+# 쇼핑몰 웹 서비스 - Stop-Musinsa
 
 <br />
 
 ## 1. 서비스 링크
 
-### https://shopping-mall-racer.herokuapp.com/ 
+### https://stop-musinsa.herokuapp.com/
 
 <br />
 
@@ -27,68 +21,18 @@
 
 ### 2-1. API 문서
 
-### https://documenter.getpostman.com/view/19463141/Uz5JHvXh
-
-<br>
-
-### 2-2. 데모 영상
-
-<details><summary>사용자 회원가입, 로그인</summary>
-
-![image](https://user-images.githubusercontent.com/91174156/172159634-1e105633-9948-464e-a540-5429200a1353.gif)
-
-</details>
-
-<details><summary>카테고리 추가 및 반영</summary>
-
-관련 영상 삽입해야 함 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-   
-</details>
-
-<details><summary>제품 추가 및 반영</summary>
-
-관련 영상 삽입해야 함 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-
-</details>
-
-<details><summary>장바구니 기능</summary>
-
-관련 영상 삽입해야 함 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-
-</details>
-
-<details><summary>주문 기능</summary>
-
-관련 영상 삽입해야 함 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-
-</details>
-
-<details><summary>관리자 페이지</summary>
-
-관련 영상 삽입해야 함 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-
-</details>
+### https://documenter.getpostman.com/view/20919503/VUjSG4bq
 
 <br />
 
-### 2-3. 페이지 별 화면
+### 2-2. 페이지 별 화면
 
 |  |  |
 | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------|
-| ![image](https://i.ibb.co/jyxjcd3/image.png) | ![image](https://i.ibb.co/Q860RKz/image.png) |
-|    메인 페이지                                |      회원가입 화면                            |
-| ![image](https://i.ibb.co/RpYN379/image.png) | ![]()                                        |
-|    로그인 페이지                              |     추가해야 할 페이지                         |
+| ![1](https://user-images.githubusercontent.com/59943196/184525828-11c93a47-ae8f-4afb-a3cd-f0bf3923bd14.png) | ![2](https://user-images.githubusercontent.com/59943196/184525864-3002fdf6-d369-4562-bd55-08b19219b04c.png) |
+|    메인 페이지                                |      회원가입 페이지                            |
+|  | ![4](https://user-images.githubusercontent.com/59943196/184525962-771676e6-ebdb-4fe2-a70b-5102266a2261.png)                                        | ![3](https://user-images.githubusercontent.com/59943196/184525885-6d58a63f-98c0-4714-958c-a5a90564a144.png)
+|    로그인 페이지                              |     주문 페이지                         |
 
 <br />
 
