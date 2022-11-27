@@ -2,7 +2,7 @@
 
 <br />
 
-## 1. 서비스 링크
+## 1. 서비스 링크(Closed)
 
 ### https://stop-musinsa.herokuapp.com/
 
