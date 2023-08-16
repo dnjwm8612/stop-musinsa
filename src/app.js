@@ -9,8 +9,6 @@ import passsportRequired from './passport';
 const app = express();
 passsportRequired();
 
-passsportRequired();
-
 app.use(bodyParser.urlencoded({extended: false}));
 // parse application/json
 app.use(bodyParser.json());
